@@ -12,6 +12,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/date"
         android:text="DATE"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/black"
         android:layout_alignTop="@+id/btn_date"
         android:layout_alignBottom="@+id/btn_date"
         android:layout_marginLeft="30dp" />
@@ -21,6 +23,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SELECT DATE"
+        android:backgroundTint="#b03f5f"
+        android:textColor="@android:color/white"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="200dp"/>
 
@@ -30,6 +34,8 @@
         android:layout_marginStart="30dp"
         android:id="@+id/time"
         android:text="TIME"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/black"
         android:layout_below="@+id/date"
         android:layout_alignTop="@+id/btn_time"
         android:layout_alignBottom="@+id/btn_time"
@@ -39,6 +45,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SELECT TIME"
+        android:backgroundTint="#b03f5f"
+        android:textColor="@android:color/white"
         android:id="@+id/btn_time"
         android:layout_below="@+id/btn_date"
         android:layout_alignLeft="@+id/btn_date"
@@ -48,7 +56,9 @@
         android:id="@+id/notify"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Remind me"
+        android:text="Notify me"
+        android:backgroundTint="#5ba9bd"
+        android:textColor="@android:color/white"
         android:layout_centerInParent="true"/>
 
     <Button
@@ -58,6 +68,8 @@
         android:text="Set Calendar event"
         android:layout_below="@+id/notify"
         android:layout_marginTop="20dp"
+        android:backgroundTint="#5ba9bd"
+        android:textColor="@android:color/white"
         android:layout_centerInParent="true"/>
 
 </RelativeLayout>
